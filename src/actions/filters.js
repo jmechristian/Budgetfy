@@ -1,5 +1,5 @@
 // SET_TEXT_FILTER
-export const textFilter = ( text = '' ) => ({
+export const setTextFilter = ( text = '' ) => ({
     type: 'SET_TEXT_FILTER',
     text
 });
@@ -7,7 +7,7 @@ export const textFilter = ( text = '' ) => ({
 // SORT_BY_DATE
 export const sortByDate = () => ({
     type: 'SORT_BY_DATE',
-});
+}); 
 
 // SORT_BY_AMOUNT
 export const sortByAmount = () => ({
