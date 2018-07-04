@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import configureStore from './store/configureStore';
 import { addExpense } from './actions/expenses';
 import getVisibleExpenses from './selectors/expenses';
+import './firebase/firebase';
 
 import './App.css';
 import 'normalize.css/normalize.css';
