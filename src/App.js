@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import AppRouter from './routers/AppRouter';
-import './firebase/firebase';
 
 import './App.css';
 import 'normalize.css/normalize.css';
@@ -13,7 +12,7 @@ class App extends Component {
         <AppRouter />
       </div>
     );
-  }
-}
+  };
+};
 
 export default App;
